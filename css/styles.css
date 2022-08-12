@@ -1,3 +1,36 @@
-body {
-    background-color: aqua;
+/* Скидання налаштувань */
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* логотип */
+
+.logo-web {
+    color: #2196F3;}
+          
+.logo-studio {color: #000;}
+
+/* Контакти */
+
+.studio {color: #212121;}
+.studio:hover {
+   color: #2196F3; 
+   }
+   .studio:focus {
+    color: #2196F3;
+   }
+
+.portfolio {
+    color: #212121;
+}
+.portfolio:hover {
+    color:#2196F3 ;
+}
+.portfolio:focus {
+    color:#2196F3;
+}
+.contacts {
+    color: #000;
 }
