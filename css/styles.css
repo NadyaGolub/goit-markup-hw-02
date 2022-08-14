@@ -1,3 +1,7 @@
+:root {
+    --brand-color: #2F303A;
+}
+
 /* Скидання налаштувань */
 ul {
     list-style: none;
@@ -5,32 +9,144 @@ ul {
 a {
     text-decoration: none;
 }
+
+/* Шапка */
+.page-header {
+    background-color: #FFFFFF;
+}
+
 /* логотип */
 
 .logo-web {
-    color: #2196F3;}
+    color: #2196F3;
+    Font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;}
           
-.logo-studio {color: #000;}
+.logo-studio {color: #000;
+    Font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;}
 
 /* Контакти */
 
-.studio {color: #212121;}
-.studio:hover {
+.current {color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;}
+.current:hover, .current:focus {
    color: #2196F3; 
    }
-   .studio:focus {
-    color: #2196F3;
-   }
+    
 
-.portfolio {
-    color: #212121;
-}
-.portfolio:hover {
-    color:#2196F3 ;
-}
-.portfolio:focus {
-    color:#2196F3;
-}
 .contacts {
-    color: #000;
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
+.contacts:hover {color: #2196F3;
+}
+
+
+/* Основний контент сторінки Студія*/
+
+.title {
+  background-color: var(--brand-color);
+ }
+
+.work {
+    background-color: #F5F5F5;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+/* Кнопка  */
+
+.buttun-primary {
+    background-color: #2196F3;
+    color: #F5F4FA;
+}
+
+/* Основний контент сторінки Портфоліо */
+
+.main {
+    background-color: #F5F5F5;
+}
+
+.buttons {
+    background-color: #F5F4FA;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;  }
+.buttons:hover, .buttons:focus {color: #2196F3;}
+
+
+/* Підвал */
+
+.page-footer {
+  background-color: var(--brand-color);}
+
+.logo-studio-text {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.address-text {color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;}
+
+.mail {
+    color: rgba(255, 255, 255, 0.6);;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em; }
+.mail:hover, .mail:focus {
+  color: #2196F3;
+}
+ 
+
+.phone {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.phone:hover, .phone:focus {
+    color: #2196F3;
+}
+

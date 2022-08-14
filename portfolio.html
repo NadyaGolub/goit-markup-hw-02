@@ -7,33 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
+
+    <!-- "Шапка" сторінки Портфоліо  -->
+
     <header class="page-header">
         <nav>
             <!--Логотип-->
-            <a href="/portfolio.html" class="logo-web">
+            <a href="" class="logo-web">
                 Web<span class="logo-studio">Studio</span>
             </a>
             <!--Контакти-->
             <ul>
-                <li><a href="/index.html" class="studio">Студія</a></li>
-                <li><a href="/portfolio.html" class="portfolio">Портфоліо</a></li>
-                <li><a href="">Контакти</a></li>
+                <li><a href="./index.html" class="current">Студія</a></li>
+                <li><a href="./portfolio.html" class="current">Портфоліо</a></li>
+                <li><a href="" class="contacts" >Контакти</a></li>
 
             </ul>
         </nav>
         <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li><a href="mailto:info@devstudio.com" class="current">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="current">+38 096 111 11 11</a></li>
         </ul>
     </header>
-    <main>
-        <!--Портфоліо-->
-        <section>
+    <main class="main">
+        <!--Основний контент сторінки Портфоліо-->
+        <section >
             <h1>Фільтр сторінки Потрфоліо</h1>
-            <ul>
+            <ul class="buttons">
                 <li> <button type="button">Усі</button></li>
                 <li> <button type="button">Веб-сайти</button></li>
                 <li> <button type="button">Додатки</button></li>
@@ -45,62 +52,65 @@
             <h2>Наше портфоліо</h2>
             <ul>
                 <li>
-                    <img src="./images/three-differens-people.jpg" alt="Троє різних людей">
+                    <img src="./images/three-differens-people.jpg" alt="Троє різних людей" width="370"/>
                     <h3>Технокряк</h3>
                     <a href="">Веб-сайт</a>
                 </li>
                 <li>
-                    <img src="./images/basketball.jpg" alt="Баскетбол">
+                    <img src="./images/basketball.jpg" alt="Баскетбол" width="370"/>
                     <h3>Постер New Orlean vs Golden Star</h3>
                     <a href="">Дизайн</a>
                 </li>
                 <li>
-                    <img src="./images/restaurant.jpg" alt="Ресторан">
+                    <img src="./images/restaurant.jpg" alt="Ресторан" width="370"/>
                     <h3>Ресторан Seafood</h3>
                     <a href="">Додаток</a>
                 </li>
                 <li>
-                    <img src="./images/headphone.jpg" alt="Навушники">
+                    <img src="./images/headphone.jpg" alt="Навушники" width="370"/>
                     <h3>Проєкт Prime</h3>
                     <a href="">Маркетинг</a>
                 </li>
                 <li>
-                    <img src="./images/boxes.jpg" alt="Коробки">
+                    <img src="./images/boxes.jpg" alt="Коробки" width="370"/>
                     <h3>Проєкт Boxes</h3>
                     <a href="">Додаток</a>
                 </li>
                 <li>
-                    <img src="./images/screen.jpg" alt="Екран">
-                    <h3>Inspiration has no Borders</h3>
+                    <img src="./images/screen.jpg" alt="Екран" width="370"/>
+                    <h3 lang="en" >Inspiration has no Borders</h3>
                     <a href="">Веб-сайт</a>
                 </li>
                 <li>
-                    <img src="./images/book.jpg" alt="Книжка">
+                    <img src="./images/book.jpg" alt="Книжка" width="370"/>
                     <h3>Видання Limited Edition</h3>
                     <a href="">Дизайн</a>
                 </li>
                 <li>
-                    <img src="./images/tag.jpg" alt="Бірка">
+                    <img src="./images/tag.jpg" alt="Бірка" width="370"/>
                     <h3>Проєкт LAB</h3>
                     <a href="">Маркетинг</a>
                 </li>
                 <li>
-                    <img src="./images/notebook.jpg" alt="Ноутбук">
-                    <h3>Growing Business</h3>
+                    <img src="./images/notebook.jpg" alt="Ноутбук" width="370"/>
+                    <h3  lang="en">Growing Business</h3>
                     <a href="">Додаток</a>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="/">
-            <span>Web</span>Studio
+
+    <!-- "Підвал" сторінки Портфоліо -->
+
+    <footer class="page-footer">
+        <a href="" class="logo-web">
+            Web<span class="logo-studio-text">Studio</span>
         </a>
         <address>
-            <p>м. Київ, пр-т Лесі Українки, 26</p>
+            <p class="address-text">м. Київ, пр-т Лесі Українки, 26</p>
             <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="phone">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
