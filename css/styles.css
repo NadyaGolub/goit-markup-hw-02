@@ -1,5 +1,9 @@
 :root {
     --brand-color: #2F303A;
+    --accent-color: #2196F3;
+    --primary-text-color: #FFFFFF;
+    --title-text-color: #212121;
+    --secondary-text-color: #757575;
 }
 
 /* Скидання налаштувань */
@@ -12,13 +16,13 @@ a {
 
 /* Шапка */
 .page-header {
-    background-color: #FFFFFF;
+    background-color: var(--primary-text-color);
 }
 
 /* логотип */
 
 .logo-web {
-    color: #2196F3;
+    color: var(--accent-color);
     Font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -36,7 +40,7 @@ a {
 
 /* Контакти */
 
-.current {color: #212121;
+.current {color: var(--title-text-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -44,12 +48,12 @@ a {
     line-height: 16px;
     letter-spacing: 0.02em;}
 .current:hover, .current:focus {
-   color: #2196F3; 
+   color: var(--accent-color)
    }
     
 
 .contacts {
-    color: #212121;
+    color: var(--title-text-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -57,30 +61,47 @@ a {
     line-height: 16px;
     letter-spacing: 0.02em;
 }
-.contacts:hover {color: #2196F3;
+.contacts:hover {
+    color: var(--accent-color)
 }
 
 
 /* Основний контент сторінки Студія*/
 
-.title {
+.hero {
   background-color: var(--brand-color);
  }
+ .hero-title {
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+ }
 
-.work {
-    background-color: #F5F5F5;
-}
-
-.team {
-    background-color: #F5F4FA;
-}
+ .section-title {
+    color: var(--title-text-color)
+ }
 
 /* Кнопка  */
 
-.buttun-primary {
-    background-color: #2196F3;
-    color: #F5F4FA;
-}
+.button-primary {
+    background-color: var(--accent-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+    display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+   }
 
 /* Основний контент сторінки Портфоліо */
 
@@ -88,8 +109,9 @@ a {
     background-color: #F5F5F5;
 }
 
-.buttons {
+.button {
     background-color: #F5F4FA;
+    color:var(--title-text-color) ;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -97,7 +119,8 @@ a {
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;  }
-.buttons:hover, .buttons:focus {color: #2196F3;}
+.button:hover, .button:focus { color: var(--primary-text-color); background-color: var(--accent-color);
+}
 
 
 /* Підвал */
@@ -106,7 +129,7 @@ a {
   background-color: var(--brand-color);}
 
 .logo-studio-text {
-    color: #FFFFFF;
+    color: var(--primary-text-color);
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -115,7 +138,7 @@ a {
     letter-spacing: 0.03em;
 }
 
-.address-text {color: #FFFFFF;
+.address-text {color: var(--primary-text-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -124,7 +147,7 @@ a {
     letter-spacing: 0.03em;}
 
 .mail {
-    color: rgba(255, 255, 255, 0.6);;
+    color: rgba(255, 255, 255, 0.6);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -132,7 +155,7 @@ a {
     line-height: 24px;
     letter-spacing: 0.03em; }
 .mail:hover, .mail:focus {
-  color: #2196F3;
+  color: var(--accent-color);
 }
  
 
@@ -147,6 +170,6 @@ a {
 }
 
 .phone:hover, .phone:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
