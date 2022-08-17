@@ -182,7 +182,8 @@ body {
     }
 
 .items-contacts {
-    color: var(--footer-text-color) ;
+    color: var(--footer-text-color);
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
